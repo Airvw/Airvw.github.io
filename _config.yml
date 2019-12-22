@@ -91,7 +91,7 @@ rss:
 #since: 2015
 
 # icon between year and author @Footer
-authoricon: github 
+authoricon: github
 #깃허브 아이콘 추가
 
 # Footer `powered-by` and `theme-info` copyright
@@ -123,7 +123,7 @@ menu:
   archives: /archives/
   categories: /categories/
   tags: /tags/
-  sitemap: /sitemap.xml
+  #sitemap: /sitemap.xml
   #about: /about/
   #commonweal: /404.html
 
@@ -588,7 +588,7 @@ algolia_search:
 
 # Local search
 local_search:
-  enable: false
+  enable: true
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto
