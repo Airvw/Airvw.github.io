@@ -1,20 +1,20 @@
-# ---------------------------------------------------------------
+﻿# ---------------------------------------------------------------
 # Jekyll & Global Configuration
 ## Docs: https://jekyllrb.com/docs/configuration/
 # ---------------------------------------------------------------
 
 # Site
-title: NexT
+title: DK's Blog
 subtitle:
-description:
-author: John Doe
+description: 
+author: Double K
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: en
 date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url:
+url: "https://airvw.github.io/"
 baseurl:
 permalink: pretty
 
@@ -76,10 +76,10 @@ plugins:
 # ---------------------------------------------------------------
 
 # Put your favicon.ico into `assets/` directory.
-favicon: /assets/favicon.ico
+favicon: /assets/images/pang.jpg
 
 # Set default keywords (Use a comma to separate)
-keywords: "Jekyll, NexT"
+keywords: "Jekyll, NexT" # 마지막 같은 느낌?
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -90,7 +90,7 @@ rss:
 #since: 2015
 
 # icon between year and author @Footer
-authoricon: heart
+authoricon: github #깃허브 아이콘 추가
 
 # Footer `powered-by` and `theme-info` copyright
 copyright: true
@@ -122,6 +122,13 @@ menu:
   #about: /about/
   archives: /archives/
   tags: /tags/
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: mailto:airvw@gmail.com
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Airvw"
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
