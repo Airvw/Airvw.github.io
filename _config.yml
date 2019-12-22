@@ -384,7 +384,7 @@ han: false
 # Disqus
 disqus:
   enable: true
-  shortname: 
+  shortname: airvw-github-io
   count: true
   # hide comments (visitors need to click to load the comments)
   # count need to be false when hide is true
