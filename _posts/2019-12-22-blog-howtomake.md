@@ -1,6 +1,6 @@
 ﻿---
 title:  "github.io 블로그 시작하기"
-
+date: 2019-12-2 17:25:00
 categories:
   - Github.io Blog 시작하기
 tags:
