@@ -1,8 +1,8 @@
 ﻿---
-title: "github.io 블로그 시작하기"
-categories:
+title: "github.io 블로그 시작하기"  
+categories:  
 - Github.io Blog 시작하기
-tags:
+tags:  
 - Blog
 - github.io
 ---
