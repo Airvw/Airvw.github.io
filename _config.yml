@@ -79,7 +79,8 @@ plugins:
 favicon: /assets/images/pang.jpg
 
 # Set default keywords (Use a comma to separate)
-keywords: "Jekyll, NexT" # 마지막 같은 느낌?
+keywords: "Jekyll, NexT"
+# 마지막 같은 느낌?
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -90,7 +91,8 @@ rss:
 #since: 2015
 
 # icon between year and author @Footer
-authoricon: github #깃허브 아이콘 추가
+authoricon: github 
+#깃허브 아이콘 추가
 
 # Footer `powered-by` and `theme-info` copyright
 copyright: true
@@ -118,17 +120,10 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories/
-  #about: /about/
+  categories: /categories/
+  about: /about/
   archives: /archives/
   tags: /tags/
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto:airvw@gmail.com
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/Airvw"
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
