@@ -91,8 +91,7 @@ rss:
 #since: 2015
 
 # icon between year and author @Footer
-authoricon: github
-#깃허브 아이콘 추가
+# authoricon: 
 
 # Footer `powered-by` and `theme-info` copyright
 copyright: true
@@ -216,7 +215,8 @@ font:
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 #social:
-  #LinkLabel: Link
+  GitHub: https://github.com/Airvw
+  Email: mailto:airvw14@gmail.com
 
 
 # Social Links Icons
@@ -231,6 +231,7 @@ social_icons:
   GitHub: github
   Twitter: twitter
   Weibo: weibo
+  Email: fas fa-fw fa-envelope-square
 
 
 # Sidebar Avatar
