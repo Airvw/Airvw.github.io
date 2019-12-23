@@ -41,8 +41,8 @@ last_modified_at: 2019-04-13T08:06:00-05:00를 직접 작성해야 되는지 궁
 
 ## 윈도우에서 notepad 편집의 문제점  
 cmd창에서 notepad를 사용해서 md 파일을 수정하였더니  
-![](https://airvw.github.io/assets/images/markdown-error.jpg)와 같이 표시됩니다.  
-원래는 ![](https://airvw.github.io/assets/images/markdown.jpg)와 같이 표시되어야 합니다.  
+![](https://airvw.github.io/assets/images/markdown-error.png)와 같이 표시됩니다.  
+원래는 ![](https://airvw.github.io/assets/images/markdown.png)와 같이 표시되어야 합니다.  
 오류의 원인은 윈도우에서 윈도우 계열과 유닉스(맥, 리눅스) 계열에서의 서로 다른 플랫폼에서의 공유시 발생하는 소스의 줄바꿈이었습니다.  
 이것을 해결하기 위해서 윈도우에서 ubuntu 쉘을 사용할 수 있는 WSL을 사용했습니다.  
 <https://wnsgml972.github.io/setting/wsl.html> 사이트를 참조하여 설치하였고, microsoft store에서 ubuntu를 설치했습니다.  
