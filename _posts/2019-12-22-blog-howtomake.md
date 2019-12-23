@@ -1,14 +1,10 @@
 ﻿---
-title:  "백준17423 민원이 넘쳐흘러"
-date:   2019-11-27 20:33:00
+title: Categories
+date: 2019-12-22 15:00:00
 categories:
-- Sunrin-PS
-tags:
-- Sweeping
-- Segment-Tree
-- Lazy-Propagation
-- Parametric-Search
+- Foo
+- Bar
+- Baz
 ---
-  
-### github 가입
-* GitHub Blog 서비스인 github.io 블로그 시작하기로 했다.
+
+This post contains 3 categories. Make sure your theme can display all of the categories.
