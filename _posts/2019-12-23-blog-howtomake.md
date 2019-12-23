@@ -48,7 +48,13 @@ cmd창에서 notepad를 사용해서 md 파일을 수정하였더니
 <https://wnsgml972.github.io/setting/wsl.html> 사이트를 참조하여 설치하였고, microsoft store에서 ubuntu를 설치했습니다.  
 설치 후 user 설정하고 sudo apt-get update, sudo apt-get install vim git 명령어로 vim과 git만 설치했습니다.  
 ubuntu쉘에서 cd /mnt 하니 윈도우상의 폴더로 접근 가능하였고, 여기서 새로운 md 파일을 생성하고 vim으로 편집했더니 위 사진의 오류는 발생하지 않았습니다. 
-
+  
+## nexT 테마 기본설정  
+무엇을 수정했는지는 <https://github.com/Airvw/airvw.github.io/blob/master/_config.yml> 여기에서 확인해보시면 됩니다.  
+크게 site, url, atom feed, authoricon, menu, sidebar settings, disqus를 수정했습니다.  
+댓글 기능을 추가할시 shortname을 입력해야 정상적으로 작동되는 것 같습니다.  
+shortname은 <https://disqus.com/>에서 확인하실 수 있습니다.  
+  
 ## 현재 의문점  
 날짜와 시간을 직접 입력해야 하는지  
 next 테마에서는 로컬 작동이 안되는지  
