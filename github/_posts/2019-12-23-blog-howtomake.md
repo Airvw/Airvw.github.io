@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "github.io 블로그 제작 과정"
 tags:
 - [Blog]
