@@ -7,7 +7,7 @@ tags:
 ---
 
 ## 참고자료 
-저는 블로그를 <https://devinlife.com/>사이트를 참조하여 제작하였습니다.  
+저는 [devinlife님의 블로그](https://devinlife.com/howto/)사이트를 참조하여 제작하였습니다.  
 단계별로 차근차근 설명이 잘 되어있기 때문에 참조하시면 됩니다.  
 저는 윈도우에서 블로그를 만들었기 때문에 블로그 제작 과정에서 여러가지 문제점과 해결방법을 소개해드리려고 합니다.
 
@@ -55,8 +55,8 @@ ubuntu쉘에서 cd /mnt 하니 윈도우상의 폴더로 접근 가능하였고,
 무엇을 수정했는지는 <https://github.com/Airvw/airvw.github.io/blob/master/_config.yml> 여기에서 확인해보시면 됩니다.  
 크게 site, url, atom feed, authoricon, menu, sidebar settings, disqus를 수정했습니다.  
 댓글 기능을 추가할시 shortname을 입력해야 정상적으로 작동되는 것 같습니다.  
-shortname은 <https://disqus.com/>에서 확인하실 수 있습니다.  
-  
+shortname은 <https://disqus.com/>에서 계정의 Install on Site의 General탭에서 확인하실 수 있습니다.  
+
 ## 현재 의문점  
 날짜와 시간을 직접 입력해야 하는지  
 ~~next 테마에서는 로컬 작동이 안되는지~~ 
