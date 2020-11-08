@@ -58,8 +58,8 @@ menu:
     url:               /algorithm/
     #  - title:             Machine Learning
     #    url:               /machine/
-    #  - title:             정보글
-    #    url:               /inform/
+  - title:             Python
+    url:               /python/
   - title:             github
     url:               /github/
   - title:             git
