@@ -9,6 +9,11 @@ tags:
   - [python]
 ---
 
+## 참고 자료
+
+파이썬 알고리즘 인터뷰
+[leetcode - Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
+
 ## 문제
 
 Given a string, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases.  
@@ -67,4 +72,43 @@ class Solution:
             if i != j:
                 answer = False
         return answer
+```
+
+- Deque를 사용.
+  비교는 pop()을 사용해서 비교
+
+```python
+import collections
+
+class Solution:
+    def isPalindrome(self, s: str) -> bool:
+        strs = collections.deque()
+
+        for char in s:
+            if char.isalnum():
+                strs.append(char.lower())
+
+        while len(strs) > 1:
+            if strs.popleft() != strs.pop():
+                return False
+
+        return True
+```
+
+- 투 포인터 사용.(Reverse String을 보고 투 포인터로 접근)
+
+```python
+import re
+
+class Solution:
+    def isPalindrome(self, s: str) -> bool:
+        s = s.lower()
+        s = re.sub("[^0-9a-z]", "", s)
+        left, right = 0, len(s) - 1
+        while left < right:
+            if s[left] != s[right]:
+                return False
+            left += 1
+            right -= 1
+        return True
 ```
