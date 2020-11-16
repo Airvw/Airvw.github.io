@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "Valid Palindrome(python)"
+title: "Valid Palindrome2(python)"
 tags:
   - [algorithm]
   - [leetcode]
   - [완전 탐색]
   - [정규 표현식]
+  - [투 포인터]
   - [python]
 ---
 
