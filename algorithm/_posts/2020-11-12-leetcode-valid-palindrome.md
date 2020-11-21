@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Valid Palindrome2(python)"
+title: "Valid Palindrome(python)"
 tags:
   - [algorithm]
   - [leetcode]
