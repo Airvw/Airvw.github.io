@@ -45,9 +45,9 @@ Output: [0,1]
 
 **Constraints:**
 
-- 2 <= nums.length <= 10^3^
-- -10^9^ <= nums[i] <= 10^9^
-- -10^9^ <= target <= 10^9^
+- 2 <= nums.length <= 10<sup>3<sup>
+- -10<sup>9<sup> <= nums[i] <= 10<sup>9<sup>
+- -10<sup>9<sup> <= target <= 10<sup>9<sup>
 - Only one valid answer exists.
 
 ## 나의 생각
@@ -68,4 +68,29 @@ class Solution:
             for j in range(i + 1, len(nums)):
                 if t - nums[j] == 0:
                     return [i, j]
+```
+
+- in을 활용한 완전 탐색  
+   시간 복잡도는 위와 같지만 n은 파이썬 레벨에서 매번 값을 비교하는 것에 비해 빨리 실행된다.
+
+```python
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        for i, n in enumerate(nums):
+            t = target - n
+            if t in nums[i + 1:]:
+                return nums.index(n), nums[i + 1 :].index(t) + (i + 1)
+```
+
+- 해쉬 테이블을 이용.
+
+```python
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        nums_map = {}
+        for i, n in enumerate(nums):
+            if target - n in nums_map:
+                return [nums_map[target - num], i]
+            nums_map[num] = i
+
 ```
