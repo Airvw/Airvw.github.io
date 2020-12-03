@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Linked List(1)(python)"
+title: "Linked List(python)"
 tags:
   - [algorithm]
   - [python]
@@ -17,6 +17,17 @@ tags:
 구현에서의 연결 리스트의 시작 인덱스는 1부터 시작한다.  
 여기서 head와 tail은 dummy 노드가 아니다.  
 처음에 dummy 노드로 생각해서 헷갈린 적이 있다.
+
+코드를 보지 않고 처음부터 작성해보자~!
+
+## 연산 정의
+
+1. 특정 원소 참조(k 번째)
+1. 리스트 순회
+1. 길이 얻어내기
+1. 원소 삽입
+1. 원소 삭제
+1. 두 연결 리스트 합치기
 
 ## 연결 리스트 구현 코드
 
@@ -125,3 +136,8 @@ class LinkedList:
             self.tail = L.tail
         self.nodeCount += L.nodeCount
 ```
+
+## 오류났던 부분
+
+def popAt(self, pos)를 작성하는 중에 초기에 data를 초기화하지 않고, if문 안에서 data를 초기화하고, 갱신하면서 data부분에서 오류가 났다.  
+if문 안에서의 data는 지역 변수이므로, if문 밖의 data에 대해 영향을 끼치지 않는다는 점을 간과했다..
