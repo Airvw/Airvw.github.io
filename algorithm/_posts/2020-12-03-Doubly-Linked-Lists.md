@@ -16,8 +16,8 @@ tags:
 
 ```python
 class Node:
-    def __init__(self, data):
-        self.item = data
+    def __init__(self, item):
+        self.data = item
         self.prev = None
         self.next = None
 
@@ -29,7 +29,7 @@ class DoubleyLinkedList:
         self.head.next = self.tail
         self.tail.prev = self.head
 
-    def getLength():
+    def getLength(self):
         return self.nodeCount
 
     # 연결 리스트 순회

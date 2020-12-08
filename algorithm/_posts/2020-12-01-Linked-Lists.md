@@ -4,6 +4,7 @@ title: "Linked List(python)"
 tags:
   - [algorithm]
   - [python]
+  - [연결 리스트]
 ---
 
 ## 연결 리스트(더미 노드 없는 경우)

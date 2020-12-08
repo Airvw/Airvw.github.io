@@ -11,12 +11,11 @@ tags:
 ## 코드 구현
 
 ```python
+# 이전에 작성한 Node, Doubly Linked List 클래스를 활용.
 from dobuly import Node
 from dobuly import DoublyLinkedList
-# doublylinkedlist
 
 class LinkedListStack:
-
     def __init__(self):
         self.data = DoublyLinkedList()
 
