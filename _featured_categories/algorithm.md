@@ -1,7 +1,7 @@
 ---
 layout: list
-title: algorithm
+title: Algorithm
 slug: algorithm
 description: >
-    Algorithm 관련
+  Algorithm 관련
 ---

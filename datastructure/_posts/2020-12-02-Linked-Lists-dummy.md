@@ -2,7 +2,7 @@
 layout: post
 title: "Linked List(duumy)(python)"
 tags:
-  - [algorithm]
+  - [자료구조]
   - [python]
   - [연결 리스트]
 ---

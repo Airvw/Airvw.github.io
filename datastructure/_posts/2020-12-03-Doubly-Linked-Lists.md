@@ -2,7 +2,7 @@
 layout: post
 title: "Doubly Linked List(python)"
 tags:
-  - [algorithm]
+  - [자료구조]
   - [python]
   - [양방향 연결 리스트]
 ---
@@ -21,7 +21,7 @@ class Node:
         self.prev = None
         self.next = None
 
-class DoubleyLinkedList:
+class DoublyLinkedList:
     def __init__(self):
         self.nodeCount = 0
         self.head = Node(None)

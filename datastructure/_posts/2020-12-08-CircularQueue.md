@@ -2,8 +2,7 @@
 layout: post
 title: "Circular Queue(python)"
 tags:
-  - [algorithm]
-  - [programmers]
+  - [자료구조]
   - [환형 큐]
   - [python]
 ---
@@ -56,4 +55,5 @@ class CircularQueue:
 ## 오류난 부분
 
 peek() 메소드에서 rear와 front가 헷갈려서 오류가 났다.  
-rear는 처음에 들어온 부분을 가르키고, front는 마지막에 들어온 가르킨다.
+rear는 enqueue한 위치를 가르키고, front는 dequeue한 위치를 가르킨다.  
+따라서 처음 들어온 위치는 `(self.front + 1) % self.maxCount`가 된다.

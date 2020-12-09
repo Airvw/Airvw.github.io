@@ -2,8 +2,7 @@
 layout: post
 title: "중위 표현 수식 -> 후위 표현 수식(python)"
 tags:
-  - [algorithm]
-  - [programmers]
+  - [자료구조]
   - [stack]
   - [python]
 ---

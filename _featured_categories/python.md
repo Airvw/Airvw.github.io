@@ -1,7 +1,7 @@
 ---
 layout: list
-title: python
+title: Python
 slug: python
 description: >
-    Python 관련
+  Python 관련
 ---

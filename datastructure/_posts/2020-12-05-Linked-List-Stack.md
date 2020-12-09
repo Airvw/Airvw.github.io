@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Queue(Doubly Linked Lists로 구현)(python)"
+title: "Stack(Doubly Linked Lists로 구현)(python)"
 tags:
-  - [algorithm]
+  - [자료구조]
   - [python]
   - [양방향 연결 리스트]
-  - [큐]
+  - [스택]
 ---
 
 ## 코드 구현
@@ -15,10 +15,9 @@ tags:
 from dobuly import Node
 from dobuly import DoublyLinkedList
 
-class LinkedListQueue:
-
+class LinkedListStack:
     def __init__(self):
-        self.data = DoubleyLinkedList()
+        self.data = DoublyLinkedList()
 
     def size(self):
         return self.data.getLength()
@@ -26,13 +25,13 @@ class LinkedListQueue:
     def isEmpty(self):
         return self.size() == 0
 
-    def enqueue(self, item):
+    def push(self, item):
         node = Node(item)
         self.data.insertAt(self.size() + 1, node)
 
-    def dequeue(self):
-        return self.data.popAt(1)
+    def pop(self):
+        self.data.popAt(self.size())
 
     def peek(self):
-        return self.data.getAt(1).data
+        return self.data.getAt(self.size()).data
 ```

@@ -2,8 +2,7 @@
 layout: post
 title: "후위표현 수식 계산(python)"
 tags:
-  - [algorithm]
-  - [programmers]
+  - [자료구조]
   - [stack]
   - [python]
 ---
