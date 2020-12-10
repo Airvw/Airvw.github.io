@@ -97,4 +97,4 @@ class BinaryTree:
 ## 오류난 부분
 
 - Node 클래스의 size() 메소드에서 종료 조건에서의 값이 0이 주어져서 return 값이 0이 되는게 아닌가하는 생각이 들었지만 기존의 root를 더해줌으로써 의문이 풀렸다.
-  그리고 self.left, self.right 모두 노드라는 것이 중요했다.
+그리고 self.left, self.right 모두 노드라는 것이 중요했다.
