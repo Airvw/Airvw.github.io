@@ -69,13 +69,19 @@ class BinaryTree:
         self.root = r
 
     def bft(self):
+        # 빈 리스트와 빈 큐를 초기화한다.
         traversal = []
         q = ArrayQueue()
+        # 빈 트리가 아니면(루트 노드가 존재하면) root 노드를 큐에 추가
         if self.root:
             q.enqueue(self.root)
+            # 큐가 존재하는 동안
             while not q.isEmpty():
+                # 큐에서 노드를 dequeue
                 node = q.dequeue()
+                # dequeue한 노드를 방문
                 traversal.append(node.data)
+                # dequeue한 노드의 왼쪽, 오른쪽 자식이 존재하면 큐에 추가
                 if node.left:
                     q.enqueue(node.left)
                 if node.right:
