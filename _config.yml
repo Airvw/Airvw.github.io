@@ -68,6 +68,8 @@ menu:
     url: /datastructure/
     #  - title:             Machine Learning
     #    url:               /machine/
+  - title: Math
+    url: /math/
   - title: Python
     url: /python/
   - title: github
@@ -197,6 +199,7 @@ defaults:
 kramdown:
   math_engine: mathjax
   math_engine_opts: {}
+
   footnote_backlink: "&#x21a9;&#xfe0e;"
 
 # 3rd Party Integrations

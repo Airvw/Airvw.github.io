@@ -1,7 +1,7 @@
 ---
 layout: list
-title: javascript
+title: Javascript
 slug: javascript
 description: >
-  javascript 관련
+  Javascript 관련
 ---

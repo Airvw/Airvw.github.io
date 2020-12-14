@@ -1,6 +1,6 @@
 ---
 layout: list
-title: git
+title: Git
 slug: git
 description: >
     Git 관련

@@ -1,7 +1,7 @@
 ---
 layout: list
-title: java
+title: Java
 slug: java
 description: >
-    java 관련
+    Java 관련
 ---

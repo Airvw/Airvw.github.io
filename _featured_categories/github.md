@@ -1,7 +1,7 @@
 ---
 layout: list
-title: github
+title: Github
 slug: github
 description: >
-    Github 관련
+  Github 관련
 ---
