@@ -20,7 +20,7 @@ tags:
 ---
 
 주어진 행렬을 아래의 형태를 가지는 두 행렬의 곱으로 나누는 행렬 분해
-![](https://airvw.github.io\assets\img\github/LU.png)
+![](https://airvw.github.io\assets\img\github/LU.PNG)
 
 - L : lower triangular matrix(하삼각행렬)
 - U : upper trianular matrix(상삼각행렬)
@@ -33,9 +33,9 @@ $$ Ax = b => (LU)x = b => L(Ux) = b => Ly = b(단, Ux = y) $$
 Ax = b문제에서 먼저 Ly = b(풀기 쉬운 형태)풀고, Ux = y를 푸는 문제로 바뀜
 
 1. Forward-substition(전방대입법) : y 구하기
-   ![](https://airvw.github.io\assets\img\github/forword-substition.png)
+   ![](https://airvw.github.io\assets\img\github/forword-substition.PNG)
 2. Back-substition(후방대입법) : x 구하기
-   ![](https://airvw.github.io\assets\img\github/back-substition.png)
+   ![](https://airvw.github.io\assets\img\github/back-substition.PNG)
 
 ## LU 분해의 의미
 
