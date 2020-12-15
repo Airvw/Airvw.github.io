@@ -19,6 +19,8 @@ tags:
 
 ## 소거법에 쓰이는 기본행연산(EROs : Elementary Row Operations)
 
+---
+
 - Replacement(치환): r<sub>j</sub> <- r<sub>j</sub> - mr<sub>i</sub>
   - j번째 행을 기준행인 i번째 행을 m배하여 빼서 수정
 - Interchange(교환): r<sub>j</sub> <-> r<sub>i</sub>
@@ -27,8 +29,9 @@ tags:
   - j번째 행을 s배 스케일링한다.
 
 ## Forward Elimination(전방소거법)의 의미
----
-- 선형 시스템을 가장 풀기 쉬운 꼴로 변형 **(상삼각형태 : Upper triangular form)**
-- 선형 시스템의 rank를 알려준다. 
-- 선형 시스템이 consistent(해가 있는지) 아니면 inconsistent(해가 없는지) 알려준다.
 
+---
+
+- 선형 시스템을 가장 풀기 쉬운 꼴로 변형 **(상삼각형태 : Upper triangular form)**
+- 선형 시스템의 rank를 알려준다.
+- 선형 시스템이 consistent(해가 있는지) 아니면 inconsistent(해가 없는지) 알려준다.
