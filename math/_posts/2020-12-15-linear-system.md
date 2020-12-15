@@ -55,7 +55,7 @@ $$ Ax = b $$로 표현하기
 1. constant(상수)를 모아 b에 표현
 
 $$ 3x + y = 2 $$  
-$$ x - 2y = 3 $$&nbsp;&nbsp;=>&nbsp;&nbsp;  $$ A x = b $$  &nbsp;&nbsp;=>&nbsp;&nbsp;  $$ \left[\begin{array}{lcr} 3 & 1\\1 & -2\\2 & -4\end{array}\right] \left[\begin{array}{lcr} x \\ y\end{array}\right] = \left[\begin{array}{lcr} 2 \\ 3 \\ 6\end{array}\right] $$  
+$$ x - 2y = 3 $$ => $$ A x = b $$ => $$ \left[\begin{array}{lcr} 3 & 1\\1 & -2\\2 & -4\end{array}\right] \left[\begin{array}{lcr} x \\ y\end{array}\right] = \left[\begin{array}{lcr} 2 \\ 3 \\ 6\end{array}\right] $$  
 $$ 2x - 4y = 6$$
 
 ## m x n 선형 시스템의 Ax = b 표현 정리
