@@ -5,13 +5,15 @@ tags:
   - [math]
   - [matrix]
   - [tensor]
+  - [partitioned matrix]
 ---
 
 ## 행렬
 
 ---
 
-직사각형 구조에 숫자들을 담아 놓은 구조 **(여러개의 열벡터를 나열한 구조)**
+직사각형 구조에 숫자들을 담아 놓은 구조  
+**열벡터의 리스트**
 
 - 하나의 행을 가진 행렬 : 행벡터(row vector)
 - 하나의 열을 가진 행렬 : 열벡터(column vector)
@@ -51,6 +53,20 @@ a<sub>i</sub><sub>j</sub>를 행렬 A<sub>n</sub>의 주 대각선(main diagonal
 ---
 
 - 병렬 처리(parallel processing)로 가속할 수 있다. (결과가 독립적)
+
+## 분할 행렬
+
+---
+
+행렬을 분할하여 생각해도 무방 -> 부분행렬로 이루어진 구조로 생각  
+행렬을 구조적으로 보는 방법을 분할 행렬(partitioned matrix) 또는 블록 행렬(block matrix)이라고 한다.
+
+## 분할 행렬로 행렬의 곱 이해하기
+
+---
+
+두 행렬의 곱 AB = C를 matrix-column vector products로 볼 수 있다.  
+![](https://airvw.github.io\assets\img\github/matrix-column-vector-products.png)
 
 ## 텐서(tensor)
 
