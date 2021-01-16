@@ -12,7 +12,7 @@ tags:
 
 ## 참고 자료
 
-파이썬 알고리즘 인터뷰
+파이썬 알고리즘 인터뷰  
 [leetcode - Valid Palindrome](https://leetcode.com/problems/valid-palindrome-ii/)
 
 ## 문제

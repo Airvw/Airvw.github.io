@@ -3,7 +3,6 @@ layout: post
 title: "가우스 소거법"
 tags:
   - [math]
-  - [linear system]
   - [gauss elimination]
 ---
 
@@ -15,7 +14,7 @@ tags:
 
 1. Forward elimination(전방소거법) : 아래로 갈수록 더 단순한 형태의 선형방정식을 가지도록 변형
 1. Back-substitution(후방대입법) : 아래에서부터 위로 미지수를 실제값으로 대체(해를 구하는 과정)
-   ![](https://airvw.github.io\assets\img\github/gauss.png)
+   ![](https://airvw.github.io\assets\img\github/gauss.PNG)
 
 ## 소거법에 쓰이는 기본행연산(EROs : Elementary Row Operations)
 

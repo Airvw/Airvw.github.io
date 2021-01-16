@@ -10,7 +10,7 @@ tags:
 
 ## 참고 자료
 
-파이썬 알고리즘 인터뷰
+파이썬 알고리즘 인터뷰  
 [leetcode - Reverse String](https://leetcode.com/problems/reverse-string/)
 
 ## 문제

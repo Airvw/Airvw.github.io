@@ -14,7 +14,7 @@ tags:
 - Ax : 행렬 A가 가지고 있는 열벡터의 선형 조합
 - 벡터(열벡터)들에 대한 가중치 합
 
-![](https://airvw.github.io\assets\img\github/linear-combination.png)
+![](https://airvw.github.io\assets\img\github/linear-combination.PNG)
 (a<sub>i</sub>는 A의 열벡터들)
 
 ## 선형 시스템 Ax = b를 선형조합 관점에서 바라보기

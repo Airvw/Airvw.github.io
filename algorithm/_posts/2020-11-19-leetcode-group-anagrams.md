@@ -9,7 +9,7 @@ tags:
 
 ## 참고 자료
 
-[leetcode - Group Anagrams](https://leetcode.com/problems/group-anagrams/)  
+[leetcode - Group Anagrams](https://leetcode.com/problems/group-anagrams/)   
 파이썬 알고리즘 인터뷰
 
 ## 문제 설명

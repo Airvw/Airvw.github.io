@@ -31,7 +31,7 @@ m x n 행렬 A에 대한 전치 행렬 A<sup>T</sup>는 A의 행을 열로, 열�
 
 - 벡터라고 하면 일반적으로 열벡터(column vector)를 의미
 - n-벡터는 n개의 스칼라(scalar)로 구성된 열벡터(column vector)를 의미
-  ![](https://airvw.github.io\assets\img\github/column-vector.png)
+  ![](https://airvw.github.io\assets\img\github/column-vector.PNG)
 
 ## 정방 행렬(Square Matrix)
 
@@ -39,14 +39,14 @@ m x n 행렬 A에 대한 전치 행렬 A<sup>T</sup>는 A의 행을 열로, 열�
 
 행과 열 모두 n인 정사각형 모양의 행렬을 n차 **정방행렬**이라고 한다.  
 a<sub>i</sub><sub>j</sub>를 행렬 A<sub>n</sub>의 주 대각선(main diagonal)이라 한다.  
-![](https://airvw.github.io\assets\img\github/square-matrix.png)
+![](https://airvw.github.io\assets\img\github/square-matrix.PNG)
 
 ## 항등 행렬(Identity Matrix)
 
 ---
 
 주대각선이 모두 1이고, 나머지 요소가 모두 0인 n차 정방행렬을 **항등행렬**이라고 한다.
-![](https://airvw.github.io\assets\img\github/identity-matrix.png)
+![](https://airvw.github.io\assets\img\github/identity-matrix.PNG)
 
 ## 행렬 곱
 
@@ -66,7 +66,7 @@ a<sub>i</sub><sub>j</sub>를 행렬 A<sub>n</sub>의 주 대각선(main diagonal
 ---
 
 두 행렬의 곱 AB = C를 matrix-column vector products로 볼 수 있다.  
-![](https://airvw.github.io\assets\img\github/matrix-column-vector-products.png)
+![](https://airvw.github.io\assets\img\github/matrix-column-vector-products.PNG)
 
 ## 텐서(tensor)
 
