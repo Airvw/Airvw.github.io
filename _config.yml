@@ -62,6 +62,8 @@ author:
 
 # Add links to the sidebar.
 menu:
+  - title: TIL
+    url: /til/
   - title: Algorithm
     url: /algorithm/
   - title: Data Structure
@@ -76,8 +78,6 @@ menu:
     url: /github/
   - title: git
     url: /git/
-  # - title:             Machine Learning
-  #   url:               /ML/
   # - title:             Deep Learning
   #   url:               /DL/
 # Add links to the footer.
