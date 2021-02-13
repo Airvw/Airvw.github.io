@@ -72,14 +72,14 @@ menu:
     #    url:               /machine/
   - title: Math
     url: /math/
+  - title: Deep Learning
+    url: /DL/
   - title: Python
     url: /python/
   - title: github
     url: /github/
   - title: git
     url: /git/
-  # - title:             Deep Learning
-  #   url:               /DL/
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 legal:
