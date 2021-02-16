@@ -90,7 +90,7 @@ class Solution:
         nums_map = {}
         for i, n in enumerate(nums):
             if target - n in nums_map:
-                return [nums_map[target - num], i]
-            nums_map[num] = i
+                return [nums_map[target - n], i]
+            nums_map[n] = i
 
 ```
