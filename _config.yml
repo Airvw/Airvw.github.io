@@ -68,10 +68,8 @@ menu:
     url: /algorithm/
   - title: Data Structure
     url: /datastructure/
-    #  - title:             Machine Learning
-    #    url:               /machine/
-  - title: Math
-    url: /math/
+  - title: Book
+    url: /book/
   - title: Deep Learning
     url: /DL/
   - title: Python
