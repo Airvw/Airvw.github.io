@@ -53,6 +53,10 @@ SECRET_KEY = get_secret("SECRET_KEY")
 
 ## .gitignore 파일 생성
 
+---
+
 .gitignore파일 생성 후 `secrets.json`작성
 
-## github 올리기
+## [github 올리기](https://airvw.github.io/github/2021-03-22-git-init/)
+
+---
